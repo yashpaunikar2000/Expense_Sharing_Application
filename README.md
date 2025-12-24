@@ -180,8 +180,8 @@ Each user has a *Balance document per group*:
 
 ### 1️⃣ Equal Split
 
-txt
-share = totalAmount / numberOfMembers
+share=TotalAmount / TotalMember
+
 ---
 
 ### 2️⃣ Exact Split
@@ -193,10 +193,7 @@ Total must match expense amount.
 
 ### 3️⃣ Percentage Split
 
-txt
 userShare = (totalAmount × percentage) / 100
-
-
 Percentages must sum to *100*.
 
 ---
