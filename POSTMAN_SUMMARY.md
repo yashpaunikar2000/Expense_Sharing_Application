@@ -5,7 +5,7 @@
 ## Expense Sharing Application
 ### (User • Group • Expense • Balance • Settlement)
 
-> This document provides a complete guide to testing all backend APIs of the **Expense Splitter System** using **Postman**, including endpoints, HTTP methods, request/response formats, and explanations.
+This document provides a complete guide to testing all backend APIs of the **Expense Splitter System** using **Postman**, including endpoints, HTTP methods, request/response formats, and explanations.
 
 ---
 
