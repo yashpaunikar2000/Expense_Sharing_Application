@@ -139,6 +139,85 @@ This design ensures **fast reads**, **data consistency**, and **scalability**.
 
 ```
 ---
+## 📮 API Testing with Postman
+
+All APIs can be tested using Postman.
+A complete testing guide with *URLs, HTTP methods, and JSON formats* is provided in:
+
+
+PostmanSummary.md
+
+
+### Recommended Testing Flow:
+
+1. Register users
+2. Create a group
+3. Add expenses
+4. Check balances
+5. Get settlement suggestions
+6. Record settlements
+7. Re-check balances
+
+---
+
+## ⚖️ Balance Logic Explained
+
+Each user has a *Balance document per group*:
+
+* owedTo → how much the user owes others
+* owedBy → how much others owe the user
+* netBalance = totalOwes - totalOwed
+
+### Interpretation:
+
+* netBalance < 0 → User owes money
+* netBalance > 0 → User will receive money
+* netBalance = 0 → Settled
+
+---
+
+## 🧮 Expense Split Types
+
+### 1️⃣ Equal Split
+
+txt
+share = totalAmount / numberOfMembers
+---
+
+### 2️⃣ Exact Split
+
+Each user pays a fixed amount.
+Total must match expense amount.
+
+---
+
+### 3️⃣ Percentage Split
+
+txt
+userShare = (totalAmount × percentage) / 100
+
+
+Percentages must sum to *100*.
+
+---
+## 🧩 Edge Cases Handled
+
+* Duplicate group members
+* Partial settlements
+* Multiple expenses by same user
+* Mixed split strategies
+* Zero-balance users
+* Multiple settlements between same users
+
+---
+## 🔮 Future Enhancements
+
+* JWT-based authentication
+* Auto-settle all balances
+* Minimum cash flow optimization
+* Expense edit & rollback support
+* Frontend integration (React / Flutter)
+---
 ## ⚙️ Installation & Setup 
 * Node.js (v18+ recommended)
 * npm or yarn
