@@ -32,8 +32,8 @@ http://localhost:5000/api
 
 ```json
 {
-  "name": "Apurba",
-  "email": "ab@gmail.com",
+  "name": "Yash",
+  "email": "yash@gmail.com",
   "password": "Password123"
 }
 ```
