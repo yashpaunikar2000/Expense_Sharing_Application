@@ -9,7 +9,6 @@
 
 <img width="682" height="465" alt="User creation 1" src="https://github.com/user-attachments/assets/6dce7def-3c7e-4862-8398-749038d6d3aa" />
 <img width="682" height="465" alt="User creation 2" src="https://github.com/user-attachments/assets/58b8d39f-d8e4-469e-a52d-f7c2d983d52e" />
-<img width="682" height="466" alt="User creation 3" src="https://github.com/user-attachments/assets/da143e47-3a27-47f1-bd1f-3f60e00bf2c5" />
 
 ---
 
