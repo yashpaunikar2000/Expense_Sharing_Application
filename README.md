@@ -163,8 +163,6 @@ npm install
 
 ---
 
----
-
 ## Run the Server
 
 ```bash
