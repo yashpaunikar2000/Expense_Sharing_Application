@@ -149,8 +149,8 @@ This design ensures **fast reads**, **data consistency**, and **scalability**.
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/expense-splitter-backend.git
-cd expense-splitter-backend
+git clone https://github.com/yashpaunikar2000/Expense_Sharing_Application.git
+cd Expense_Sharing_Application
 ```
 
 ---
